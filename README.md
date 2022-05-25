@@ -71,7 +71,7 @@ Example:
 ## Endpoint config
 
 - Add the private flag to set an endpoint as private, and intercept any request to your auth service provider
-- Each endpoint with the private flag will validate with the header token passing ons request
+- Each endpoint with the private flag will validate with the header token passing on request
 
 Example:
 
