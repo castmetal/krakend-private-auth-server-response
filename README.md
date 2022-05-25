@@ -51,7 +51,7 @@ Run the example code, change with your local configuration.
 - 1.17.9 is your go version
 - GLIBC-2.31 is your libc version
 
-If you received this response: <pre>No incompatibilities found!</pre>:
+If you received this response: <pre>No incompatibilities found!</pre>
 
 Run:
 
