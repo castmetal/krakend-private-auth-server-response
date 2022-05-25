@@ -163,7 +163,7 @@ func (rec *statusRecorder) Write(p []byte) (int, error) {
 	return rec.buf.Write(p)
 }
 
-func setHeaders(req *http.Request, uid string) string {
+func setHeaders(req *http.Request, uid string) {
 	req.Header.Set("x-origin", req.RequestURI)
 	req.Header.Set("x-request-id", uid)
 }
