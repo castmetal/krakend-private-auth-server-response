@@ -118,7 +118,7 @@ If your endpoint set with private flag:
 
 - Before the endpoint execution, krakend-private-auth-server-response send a request to your auth provider service url, with token header set on krakend.json config and intercept request.
 - If your auth provider service status code is 200, request will execute in your backend and return the response
-- After the response the krakend-private-auth-server-response collect your error details if exists, and send the same status code and payload received to youer response
+- After the response the krakend-private-auth-server-response collect your error details if exists, and send the same status code and payload received to your response
 - If the execution of your back-end is ok, the same response will sent of your client
 
 ### Example of Private Headers
