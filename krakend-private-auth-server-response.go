@@ -16,10 +16,6 @@ import (
 // download code on github.com/castmetal/krakend-private-auth-server-response
 const Namespace = "krakend-private-auth-server-response"
 
-type Interceptor struct {
-	core http.RoundTripper
-}
-
 type RequestGatewayResponse struct {
 	Body    map[string]interface{}
 	Headers map[string][]string
@@ -170,8 +166,6 @@ func (rec *statusRecorder) Write(p []byte) (int, error) {
 func setHeaders(req *http.Request, uid string) string {
 	req.Header.Set("x-origin", req.RequestURI)
 	req.Header.Set("x-request-id", uid)
-
-	return uid
 }
 
 func getParamsToRequest(extra map[string]interface{}, req *http.Request) ParamsRequest {
