@@ -1,6 +1,6 @@
 # krakend private auth server response
 
-![alt text]([http://url/to/img.png](https://github.com/castmetal/krakend-private-auth-server-response/blob/main/autho-provider-plugin.png))
+![how to auth provider plugin works](https://github.com/castmetal/krakend-private-auth-server-response/blob/main/autho-provider-plugin.png)
 
 - Creating a default http-server plugin for any endpoints to request for a private auth server with your Auth Token Validation
 
