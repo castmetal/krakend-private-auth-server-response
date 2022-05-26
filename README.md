@@ -1,5 +1,7 @@
 # krakend private auth server response
 
+![alt text]([http://url/to/img.png](https://github.com/castmetal/krakend-private-auth-server-response/blob/main/autho-provider-plugin.png))
+
 - Creating a default http-server plugin for any endpoints to request for a private auth server with your Auth Token Validation
 
 This plugin validates any endpoint with a private flag on URL and send a default request to your private auth service and create a new header called x-user containing the payload information about your profile customer service.
